@@ -13,6 +13,17 @@
 		BDDE663227A589AB00740760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDE663027A589AB00740760 /* Main.storyboard */; };
 		BDDE663427A589AE00740760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE663327A589AE00740760 /* Assets.xcassets */; };
 		BDDE663727A589AE00740760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDE663527A589AE00740760 /* LaunchScreen.storyboard */; };
+		BDDE664027ACFE8800740760 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = BDDE663F27ACFE8800740760 /* YouTubeiOSPlayerHelper */; };
+		BDDE664F27AD13B800740760 /* PlaylistTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE664E27AD13B800740760 /* PlaylistTableViewController.swift */; };
+		BDDE665127AD13D600740760 /* PlayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665027AD13D600740760 /* PlayTableViewController.swift */; };
+		BDDE665427AD140400740760 /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665327AD140400740760 /* BookmarkTableViewController.swift */; };
+		BDDE665627AD142500740760 /* OtherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665527AD142500740760 /* OtherTableViewController.swift */; };
+		BDDE665A27AD14CF00740760 /* PlayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665927AD14CF00740760 /* PlayTableViewCell.swift */; };
+		BDDE665C27AD14E600740760 /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665B27AD14E600740760 /* BookmarkTableViewCell.swift */; };
+		BDDE665E27AD14F600740760 /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665D27AD14F600740760 /* PlaylistTableViewCell.swift */; };
+		BDDE666027AD150500740760 /* OtherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE665F27AD150500740760 /* OtherTableViewCell.swift */; };
+		BDDE666227AD155800740760 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE666127AD155800740760 /* Constants.swift */; };
+		BDDE666527AD1B6700740760 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE666427AD1B6700740760 /* Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,16 @@
 		BDDE663327A589AE00740760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDDE663627A589AE00740760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDDE663827A589AE00740760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDE664E27AD13B800740760 /* PlaylistTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewController.swift; sourceTree = "<group>"; };
+		BDDE665027AD13D600740760 /* PlayTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTableViewController.swift; sourceTree = "<group>"; };
+		BDDE665327AD140400740760 /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		BDDE665527AD142500740760 /* OtherTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTableViewController.swift; sourceTree = "<group>"; };
+		BDDE665927AD14CF00740760 /* PlayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTableViewCell.swift; sourceTree = "<group>"; };
+		BDDE665B27AD14E600740760 /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		BDDE665D27AD14F600740760 /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		BDDE665F27AD150500740760 /* OtherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTableViewCell.swift; sourceTree = "<group>"; };
+		BDDE666127AD155800740760 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BDDE666427AD1B6700740760 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDE664027ACFE8800740760 /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,73 @@
 		BDDE662927A589AB00740760 /* ConvictWorkout */ = {
 			isa = PBXGroup;
 			children = (
+				BDDE666327AD1B5100740760 /* Shared */,
+				BDDE664527AD02FB00740760 /* Helpers */,
+				BDDE664327AD02B900740760 /* Models */,
+				BDDE664627AD102800740760 /* Views */,
+				BDDE664227AD02A700740760 /* ViewControllers */,
+				BDDE664127AD028D00740760 /* Storyboards */,
 				BDDE662A27A589AB00740760 /* AppDelegate.swift */,
 				BDDE662C27A589AB00740760 /* SceneDelegate.swift */,
-				BDDE662E27A589AB00740760 /* ViewController.swift */,
-				BDDE663027A589AB00740760 /* Main.storyboard */,
 				BDDE663327A589AE00740760 /* Assets.xcassets */,
-				BDDE663527A589AE00740760 /* LaunchScreen.storyboard */,
 				BDDE663827A589AE00740760 /* Info.plist */,
 			);
 			path = ConvictWorkout;
+			sourceTree = "<group>";
+		};
+		BDDE664127AD028D00740760 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE663027A589AB00740760 /* Main.storyboard */,
+				BDDE663527A589AE00740760 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BDDE664227AD02A700740760 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE662E27A589AB00740760 /* ViewController.swift */,
+				BDDE664E27AD13B800740760 /* PlaylistTableViewController.swift */,
+				BDDE665027AD13D600740760 /* PlayTableViewController.swift */,
+				BDDE665327AD140400740760 /* BookmarkTableViewController.swift */,
+				BDDE665527AD142500740760 /* OtherTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BDDE664327AD02B900740760 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDDE664527AD02FB00740760 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE666127AD155800740760 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BDDE664627AD102800740760 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE665D27AD14F600740760 /* PlaylistTableViewCell.swift */,
+				BDDE665F27AD150500740760 /* OtherTableViewCell.swift */,
+				BDDE665927AD14CF00740760 /* PlayTableViewCell.swift */,
+				BDDE665B27AD14E600740760 /* BookmarkTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDDE666327AD1B5100740760 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				BDDE666427AD1B6700740760 /* Shared.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +163,9 @@
 			dependencies = (
 			);
 			name = ConvictWorkout;
+			packageProductDependencies = (
+				BDDE663F27ACFE8800740760 /* YouTubeiOSPlayerHelper */,
+			);
 			productName = ConvictWorkout;
 			productReference = BDDE662727A589AB00740760 /* ConvictWorkout.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +194,9 @@
 				Base,
 			);
 			mainGroup = BDDE661E27A589AB00740760;
+			packageReferences = (
+				BDDE663E27ACFE8800740760 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
+			);
 			productRefGroup = BDDE662827A589AB00740760 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDE666527AD1B6700740760 /* Shared.swift in Sources */,
+				BDDE666027AD150500740760 /* OtherTableViewCell.swift in Sources */,
+				BDDE665127AD13D600740760 /* PlayTableViewController.swift in Sources */,
 				BDDE662F27A589AB00740760 /* ViewController.swift in Sources */,
 				BDDE662B27A589AB00740760 /* AppDelegate.swift in Sources */,
+				BDDE665627AD142500740760 /* OtherTableViewController.swift in Sources */,
+				BDDE665427AD140400740760 /* BookmarkTableViewController.swift in Sources */,
+				BDDE665E27AD14F600740760 /* PlaylistTableViewCell.swift in Sources */,
+				BDDE665A27AD14CF00740760 /* PlayTableViewCell.swift in Sources */,
 				BDDE662D27A589AB00740760 /* SceneDelegate.swift in Sources */,
+				BDDE664F27AD13B800740760 /* PlaylistTableViewController.swift in Sources */,
+				BDDE665C27AD14E600740760 /* BookmarkTableViewCell.swift in Sources */,
+				BDDE666227AD155800740760 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +456,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDDE663E27ACFE8800740760 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDDE663F27ACFE8800740760 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDDE663E27ACFE8800740760 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BDDE661F27A589AB00740760 /* Project object */;
 }
