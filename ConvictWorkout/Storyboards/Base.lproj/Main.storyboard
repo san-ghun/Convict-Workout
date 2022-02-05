@@ -55,6 +55,8 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="thumbnailImageView" destination="OpB-4g-fdj" id="QNE-rg-W3t"/>
+                                    <outlet property="titleLabel" destination="PU6-Jw-fCX" id="m2V-AG-wzf"/>
                                     <segue destination="w1c-yx-vtc" kind="show" id="HJU-Zn-Try"/>
                                 </connections>
                             </tableViewCell>
@@ -118,6 +120,10 @@
                                         <constraint firstItem="fLA-3R-4C0" firstAttribute="top" secondItem="9lq-mf-1yW" secondAttribute="top" constant="20" id="xOS-QO-PoD"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="sEk-Ka-lbg" id="5CY-PA-Hz4"/>
+                                    <outlet property="youtubePlayerView" destination="N6S-2s-h6a" id="hl0-A9-H4e"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

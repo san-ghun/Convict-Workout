@@ -132,9 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				BDDE665D27AD14F600740760 /* PlaylistTableViewCell.swift */,
-				BDDE665F27AD150500740760 /* OtherTableViewCell.swift */,
 				BDDE665927AD14CF00740760 /* PlayTableViewCell.swift */,
 				BDDE665B27AD14E600740760 /* BookmarkTableViewCell.swift */,
+				BDDE665F27AD150500740760 /* OtherTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";

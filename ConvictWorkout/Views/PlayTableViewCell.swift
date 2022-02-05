@@ -6,8 +6,16 @@
 //
 
 import UIKit
+import YouTubeiOSPlayerHelper
 
 class PlayTableViewCell: UITableViewCell {
+    
+    // MARK: - Properties
+    
+    // MARK: IBOutlets
+    @IBOutlet weak var youtubePlayerView: YTPlayerView!
+    @IBOutlet weak var titleLabel: UILabel!
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
