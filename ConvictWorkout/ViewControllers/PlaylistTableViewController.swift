@@ -8,7 +8,11 @@
 import UIKit
 
 class PlaylistTableViewController: UITableViewController {
-
+    
+    // MARK: - Properties
+        
+    
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
